@@ -1,0 +1,55 @@
+/* General */
+
+
+/* Video  */
+.content {
+    height: 100vh;
+    background-image: url('http://dupontcours.free.fr/IMG/dots.png'), url('#');
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: center center, top left;
+}
+.content video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Custom */
+.logo {
+  position: absolute;
+  margin: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.wizard-wrapper {
+  position: absolute;
+  left: 50%;
+}
+.wizard {
+  cursor: pointer;
+  padding: 20px;
+  background: #000;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 10px;
+  margin-top: 60vh;
+  position: relative;
+  left: -50%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  color: #fff;
+  font-weight: 200;
+}
+
